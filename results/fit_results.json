@@ -1,0 +1,222 @@
+{
+    "success": true,
+    "message": "`xtol` termination condition is satisfied.",
+    "cost": 0.25611938329779194,
+    "sse": 0.5122387665955839,
+    "global_rmse_normalized": 0.00830145379758561,
+    "nfev": 19,
+    "optimality": 2.787528685255661,
+    "parameters": {
+        "ksd": 2.1368610996625476e-05,
+        "kfsd": 1.945847255623849e-06,
+        "krev": 4.120852114235877e-06,
+        "kf_rep": 5.1042756206490395e-06,
+        "kRz": 0.14763946054749683,
+        "kfld": 6.726070051941568,
+        "klk": 0.00012531175010577683,
+        "basal_frac": 0.07186469969844067,
+        "k_txn_Fig2D": 0.011570830021201567,
+        "k_txn_Fig6C": 0.033460152572440616,
+        "k_txn_Fig4H": 0.008783073973252552
+    },
+    "datasets": [
+        {
+            "dataset": "Fig2D",
+            "condition": "50 nM I0",
+            "RSD": 50.0,
+            "IN": 0.0,
+            "F": 0.0,
+            "DRL0": 161.40205759189368,
+            "n_fit": 451,
+            "n_plateau": 0,
+            "row_end": 451
+        },
+        {
+            "dataset": "Fig2D",
+            "condition": "50 nM I1",
+            "RSD": 50.0,
+            "IN": 50.0,
+            "F": 0.0,
+            "DRL0": 490.60761112887764,
+            "n_fit": 301,
+            "n_plateau": 150,
+            "row_end": 301
+        },
+        {
+            "dataset": "Fig2D",
+            "condition": "25 nM I1",
+            "RSD": 25.0,
+            "IN": 25.0,
+            "F": 0.0,
+            "DRL0": 491.89120189957697,
+            "n_fit": 302,
+            "n_plateau": 149,
+            "row_end": 302
+        },
+        {
+            "dataset": "Fig2D",
+            "condition": "12.5 nM I1",
+            "RSD": 12.5,
+            "IN": 12.5,
+            "F": 0.0,
+            "DRL0": 489.61544298994494,
+            "n_fit": 311,
+            "n_plateau": 140,
+            "row_end": 311
+        },
+        {
+            "dataset": "Fig2D",
+            "condition": "6.25 nM I1",
+            "RSD": 6.25,
+            "IN": 6.25,
+            "F": 0.0,
+            "DRL0": 490.6052251288889,
+            "n_fit": 348,
+            "n_plateau": 101,
+            "row_end": 348
+        },
+        {
+            "dataset": "Fig2D",
+            "condition": "2.5 nM I1",
+            "RSD": 2.5,
+            "IN": 2.5,
+            "F": 0.0,
+            "DRL0": 491.53922213731823,
+            "n_fit": 385,
+            "n_plateau": 64,
+            "row_end": 385
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "10 G1, I0",
+            "RSD": 10.0,
+            "IN": 0.0,
+            "F": 0.0,
+            "DRL0": 79.71195679351905,
+            "n_fit": 203,
+            "n_plateau": 0,
+            "row_end": 203
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "25 G1, I0",
+            "RSD": 25.0,
+            "IN": 0.0,
+            "F": 0.0,
+            "DRL0": 133.4102654156841,
+            "n_fit": 203,
+            "n_plateau": 0,
+            "row_end": 203
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "50 G1, I0",
+            "RSD": 50.0,
+            "IN": 0.0,
+            "F": 0.0,
+            "DRL0": 212.18168957154404,
+            "n_fit": 203,
+            "n_plateau": 0,
+            "row_end": 203
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "10 G1, I1",
+            "RSD": 10.0,
+            "IN": 1.0,
+            "F": 0.0,
+            "DRL0": 492.93960993614974,
+            "n_fit": 130,
+            "n_plateau": 73,
+            "row_end": 130
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "25 G1, I1",
+            "RSD": 25.0,
+            "IN": 1.0,
+            "F": 0.0,
+            "DRL0": 490.90604995277585,
+            "n_fit": 151,
+            "n_plateau": 52,
+            "row_end": 151
+        },
+        {
+            "dataset": "Fig6C",
+            "condition": "50 G1, I1",
+            "RSD": 50.0,
+            "IN": 1.0,
+            "F": 0.0,
+            "DRL0": 492.68776822273685,
+            "n_fit": 114,
+            "n_plateau": 89,
+            "row_end": 114
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "I0",
+            "RSD": 25.0,
+            "IN": 0.0,
+            "F": 0.0,
+            "DRL0": 370.2768707624303,
+            "n_fit": 1673,
+            "n_plateau": 834,
+            "row_end": 1673
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "1.25 nM I1",
+            "RSD": 25.0,
+            "IN": 1.25,
+            "F": 0.0,
+            "DRL0": 490.1574299674254,
+            "n_fit": 1042,
+            "n_plateau": 1465,
+            "row_end": 1042
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "2.5 nM I1",
+            "RSD": 25.0,
+            "IN": 2.5,
+            "F": 0.0,
+            "DRL0": 485.5632373476514,
+            "n_fit": 454,
+            "n_plateau": 2053,
+            "row_end": 454
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "25 nM F1",
+            "RSD": 25.0,
+            "IN": 0.0,
+            "F": 25.0,
+            "DRL0": 491.58610687190065,
+            "n_fit": 692,
+            "n_plateau": 1815,
+            "row_end": 692
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "1.25 nM I1, 25 nM F1",
+            "RSD": 25.0,
+            "IN": 1.25,
+            "F": 25.0,
+            "DRL0": 487.49008495592517,
+            "n_fit": 298,
+            "n_plateau": 2209,
+            "row_end": 298
+        },
+        {
+            "dataset": "Fig4H",
+            "condition": "2.5 nM I1, 25 nM F1",
+            "RSD": 25.0,
+            "IN": 2.5,
+            "F": 25.0,
+            "DRL0": 482.6018146541209,
+            "n_fit": 172,
+            "n_plateau": 2335,
+            "row_end": 172
+        }
+    ]
+}

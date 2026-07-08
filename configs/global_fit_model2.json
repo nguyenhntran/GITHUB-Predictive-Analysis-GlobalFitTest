@@ -1,0 +1,55 @@
+{
+  "run_name": "global_fit_model2_dataset_specific_ktxn",
+  "model_name": "model2_inactivegate_fuel",
+  "excel_file": "data/in_vitro_ctRSD_modeling_data.xls",
+  "excel_sheet": "All Data",
+  "results_dir": "results",
+  "n_starts": 50,
+  "random_seed": 1,
+  "scale": 500.0,
+
+  "shared_params": [
+    "ksd",
+    "kfsd",
+    "krev",
+    "kf_rep",
+    "kRz",
+    "kfld",
+    "klk",
+    "basal_frac"
+  ],
+
+  "local_ktxn_params": {
+    "Fig2D": "k_txn_Fig2D",
+    "Fig6C": "k_txn_Fig6C",
+    "Fig4H": "k_txn_Fig4H"
+  },
+
+  "guess": {
+    "ksd": 2.85e-5,
+    "kfsd": 1.71e-6,
+    "krev": 9.68e-6,
+    "kf_rep": 3.61e-6,
+    "kRz": 1.55e-1,
+    "kfld": 6.40e0,
+    "klk": 1.72e-4,
+    "basal_frac": 5.42e-2,
+    "k_txn_Fig2D": 8.93e-3,
+    "k_txn_Fig6C": 8.93e-3,
+    "k_txn_Fig4H": 8.93e-3
+  },
+
+  "bounds": {
+    "ksd": [1e-7, 1e-3],
+    "kfsd": [1e-8, 1e-4],
+    "krev": [1e-8, 1e-3],
+    "kf_rep": [1e-8, 1e-4],
+    "kRz": [1e-3, 1e1],
+    "kfld": [1e-3, 1e2],
+    "klk": [1e-7, 1e-2],
+    "basal_frac": [1e-4, 1.0],
+    "k_txn_Fig2D": [1e-4, 1e-1],
+    "k_txn_Fig6C": [1e-4, 1e-1],
+    "k_txn_Fig4H": [1e-4, 1e-1]
+  }
+}

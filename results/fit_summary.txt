@@ -1,0 +1,69 @@
+Global fit summary
+======================================================================
+
+Fit structure
+----------------------------------------------------------------------
+Shared parameters:
+  ksd
+  kfsd
+  krev
+  kf_rep
+  kRz
+  kfld
+  klk
+  basal_frac
+
+Dataset-specific parameters:
+  k_txn_Fig2D
+  k_txn_Fig6C
+  k_txn_Fig4H
+
+Best-fit parameters
+----------------------------------------------------------------------
+ksd                  = 2.13686110e-05
+kfsd                 = 1.94584726e-06
+krev                 = 4.12085211e-06
+kf_rep               = 5.10427562e-06
+kRz                  = 1.47639461e-01
+kfld                 = 6.72607005e+00
+klk                  = 1.25311750e-04
+basal_frac           = 7.18646997e-02
+k_txn_Fig2D          = 1.15708300e-02
+k_txn_Fig6C          = 3.34601526e-02
+k_txn_Fig4H          = 8.78307397e-03
+
+Fit statistics
+----------------------------------------------------------------------
+Success: True
+Message: `xtol` termination condition is satisfied.
+Cost: 2.56119383e-01
+SSE: 5.12238767e-01
+Global normalized RMSE: 8.30145380e-03
+N evaluations: 19
+
+Dataset windows and reporter estimates
+----------------------------------------------------------------------
+
+Fig2D
+  50 nM I0                     | IN = 0.0    | F = 0.0    | RSD = 50.0   | fit points = 451   | plateau points = 0     | DRL0 = 161.40 nM | RMSE = 39.5979 nM
+  50 nM I1                     | IN = 50.0   | F = 0.0    | RSD = 50.0   | fit points = 301   | plateau points = 150   | DRL0 = 490.61 nM | RMSE = 77.3716 nM
+  25 nM I1                     | IN = 25.0   | F = 0.0    | RSD = 25.0   | fit points = 302   | plateau points = 149   | DRL0 = 491.89 nM | RMSE = 51.5537 nM
+  12.5 nM I1                   | IN = 12.5   | F = 0.0    | RSD = 12.5   | fit points = 311   | plateau points = 140   | DRL0 = 489.62 nM | RMSE = 24.7487 nM
+  6.25 nM I1                   | IN = 6.25   | F = 0.0    | RSD = 6.25   | fit points = 348   | plateau points = 101   | DRL0 = 490.61 nM | RMSE = 42.8515 nM
+  2.5 nM I1                    | IN = 2.5    | F = 0.0    | RSD = 2.5    | fit points = 385   | plateau points = 64    | DRL0 = 491.54 nM | RMSE = 89.1910 nM
+
+Fig6C
+  10 G1, I0                    | IN = 0.0    | F = 0.0    | RSD = 10.0   | fit points = 203   | plateau points = 0     | DRL0 = 79.71 nM | RMSE = 10.5433 nM
+  25 G1, I0                    | IN = 0.0    | F = 0.0    | RSD = 25.0   | fit points = 203   | plateau points = 0     | DRL0 = 133.41 nM | RMSE = 15.6902 nM
+  50 G1, I0                    | IN = 0.0    | F = 0.0    | RSD = 50.0   | fit points = 203   | plateau points = 0     | DRL0 = 212.18 nM | RMSE = 42.2993 nM
+  10 G1, I1                    | IN = 1.0    | F = 0.0    | RSD = 10.0   | fit points = 130   | plateau points = 73    | DRL0 = 492.94 nM | RMSE = 150.0867 nM
+  25 G1, I1                    | IN = 1.0    | F = 0.0    | RSD = 25.0   | fit points = 151   | plateau points = 52    | DRL0 = 490.91 nM | RMSE = 142.3424 nM
+  50 G1, I1                    | IN = 1.0    | F = 0.0    | RSD = 50.0   | fit points = 114   | plateau points = 89    | DRL0 = 492.69 nM | RMSE = 122.0061 nM
+
+Fig4H
+  I0                           | IN = 0.0    | F = 0.0    | RSD = 25.0   | fit points = 1673  | plateau points = 834   | DRL0 = 370.28 nM | RMSE = 55.2379 nM
+  1.25 nM I1                   | IN = 1.25   | F = 0.0    | RSD = 25.0   | fit points = 1042  | plateau points = 1465  | DRL0 = 490.16 nM | RMSE = 77.9049 nM
+  2.5 nM I1                    | IN = 2.5    | F = 0.0    | RSD = 25.0   | fit points = 454   | plateau points = 2053  | DRL0 = 485.56 nM | RMSE = 33.3652 nM
+  25 nM F1                     | IN = 0.0    | F = 25.0   | RSD = 25.0   | fit points = 692   | plateau points = 1815  | DRL0 = 491.59 nM | RMSE = 36.0639 nM
+  1.25 nM I1, 25 nM F1         | IN = 1.25   | F = 25.0   | RSD = 25.0   | fit points = 298   | plateau points = 2209  | DRL0 = 487.49 nM | RMSE = 35.3249 nM
+  2.5 nM I1, 25 nM F1          | IN = 2.5    | F = 25.0   | RSD = 25.0   | fit points = 172   | plateau points = 2335  | DRL0 = 482.60 nM | RMSE = 27.7218 nM
